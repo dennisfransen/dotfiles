@@ -1,0 +1,67 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
+plugins=(git zsh-autosuggestions)
+
+source $ZSH/oh-my-zsh.sh
+
+# Config aliases
+alias confz="cd ~/ && v ~/.zshrc"
+alias confn="cd ~/.config/nvim && v ~/.config/nvim/"
+alias confa="cd ~/.config/alacritty/ && v ~/.config/alacritty/alacritty.toml"
+alias conft="cd ~/ && v ~/.tmux.conf"
+
+# Dir aliases
+alias dev="cd ~/Development/"
+alias script="cd ~/Development/Scripts/"
+alias karaten="cd ~/Development/Trinax/app.karatenbygg.se/"
+alias sfk="cd ~/Development/Trinax/app.fastighetskalendern.se/"
+alias sd="cd ~/SecondBrain/"
+
+# Git aliases
+alias gs="git status"
+alias gp="git pull"
+alias gpsh="git push"
+alias gpshf="git push --force"
+alias gc="git checkout"
+alias gcb="git checkout -b"
+alias gcm="git commit -m"
+alias gaa="git add ."
+
+# Neovim aliases
+alias vim="nvim"
+alias v="nvim"
+
+# Tmux aliases
+alias t="tmux"
+alias ta="tmux a"
+alias tls="tmux ls"
+
+# Docker aliases
+alias dstart="docker compose up -d"
+alias dstop="docker compose stop"
+alias king="docker exec -it appkaratenbyggse-php-1 bash"
+
+# SSH aliases
+alias @karaten="ssh dennis@10.7.11.102"
+alias @karatendb="ssh dennis@10.7.11.132"
+alias @sftp="sftp dennis@10.7.11.102"
+alias @karatenMinio="ssh dennis@10.7.11.102 -L 9004:localhost:9004"
+alias @sfk="ssh trinax@app.fastighetskalendern.se" 
+
+# UUIDGEN lowercase
+alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]'  | pbcopy && pbpaste && echo"
+
+# Air
+alias air='~/go/bin/air'
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  
+
+# This loads nvm bash_completion
+export PATH="/opt/homebrew/opt/php@8.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.0/sbin:$PATH"
+
+export PATH="$PATH:$(go env GOPATH)/bin"
