@@ -13,11 +13,11 @@ alias confa="cd ~/.config/alacritty/ && v ~/.config/alacritty/alacritty.toml"
 alias conft="cd ~/ && v ~/.tmux.conf"
 
 # Dir aliases
-alias dev="cd ~/Development/"
-alias script="cd ~/Development/Scripts/"
-alias karaten="cd ~/Development/Trinax/app.karatenbygg.se/"
-alias sfk="cd ~/Development/Trinax/app.fastighetskalendern.se/"
-alias sd="cd ~/SecondBrain/"
+alias dev="cd ~/development"
+alias script="cd ~/development/scripts"
+alias karaten="cd ~/development/trinax/app.karatenbygg.se"
+alias sfk="cd ~/development/trinax/app.fastighetskalendern.se"
+alias sd="cd ~/secondbrain"
 
 # Git aliases
 alias gs="git status"
@@ -30,7 +30,6 @@ alias gcm="git commit -m"
 alias gaa="git add ."
 
 # Neovim aliases
-alias vim="nvim"
 alias v="nvim"
 
 # Tmux aliases
@@ -45,6 +44,7 @@ alias king="docker exec -it appkaratenbyggse-php-1 bash"
 
 # SSH aliases
 alias @karaten="ssh dennis@10.7.11.102"
+alias @karatena="ssh -A dennis@10.7.11.102"
 alias @karatendb="ssh dennis@10.7.11.132"
 alias @sftp="sftp dennis@10.7.11.102"
 alias @karatenMinio="ssh dennis@10.7.11.102 -L 9004:localhost:9004"
