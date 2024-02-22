@@ -8,9 +8,8 @@ family = "MesloLGS Nerd Font"
 decorations = "none"
 
 [window.padding]
-x = 8
-y = 8
-
+# x = 8
+# y = 8
 
 # [colors.primary]
 # background = "#272e33"
@@ -35,3 +34,4 @@ y = 8
 # magenta = "#d699b6"
 # cyan = "#83c092"
 # white = "#d3c6aa"
+
