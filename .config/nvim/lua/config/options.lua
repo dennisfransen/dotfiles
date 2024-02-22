@@ -6,11 +6,6 @@ local opt = vim.opt
 
 opt.ignorecase = true
 
--- pandoc related
-opt.spell = false
-opt.foldmethod = "manual"
-opt.foldenable = false
-
 -- scrolling
 opt.scrolloff = 8
 opt.linebreak = true
