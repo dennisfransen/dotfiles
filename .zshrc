@@ -14,6 +14,7 @@ alias conft="cd ~/ && v ~/.tmux.conf"
 
 # Dir aliases
 alias dev="cd ~/development"
+alias golang="cd ~/development/golang"
 alias script="cd ~/development/scripts"
 alias karaten="cd ~/development/trinax/app.karatenbygg.se"
 alias sfk="cd ~/development/trinax/app.fastighetskalendern.se"
@@ -28,6 +29,9 @@ alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gcm="git commit -m"
 alias gaa="git add ."
+
+# PNPM aliases
+alias pm="pnpm"
 
 # Neovim aliases
 alias v="nvim"

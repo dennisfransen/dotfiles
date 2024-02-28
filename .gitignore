@@ -18,6 +18,7 @@
 .nuget
 .nvm
 .oh-my-zsh
+.pnpm-state
 .profile
 .python_history
 .rustup
@@ -42,3 +43,4 @@
 /SecondBrain
 /Onedrive*
 /go
+/.config/zed
