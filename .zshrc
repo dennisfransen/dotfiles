@@ -69,5 +69,3 @@ if [ -d "/opt/homebrew" ]; then
   export PATH="/opt/homebrew/opt/php@8.0/bin:$PATH"
   export PATH="/opt/homebrew/opt/php@8.0/sbin:$PATH"
 fi
-
-export PATH="$PATH:$(go env GOPATH)/bin"
