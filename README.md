@@ -1,20 +1,20 @@
-#My dotfiles
+# My dotfiles
 This directory contains the dotfiles for my system
 
-##Requirements
+## Requirements
 Ensure you have the following installed on your system
 
-##Git
+## Git
 ```bash
 brew install git
 ```
 
-##Stow
+## Stow
 ```bash
 brew install stow
 ```
 
-##Installation
+## Installation
 First, check out the dotfiles repo in your $HOME directory using git
 
 ```bash
