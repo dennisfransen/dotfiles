@@ -2,7 +2,7 @@
 size = 16
 
 [font.normal]
-family = "MesloLGS Nerd Font"
+family = "JetBrains Mono"
 
 [window]
 # decorations = "none"
